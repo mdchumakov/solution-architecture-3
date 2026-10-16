@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VitaStore — схемы решения</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, sans-serif; color: #172b4d; background: #f5f7fa; }
+  header { padding: 18px 24px; background: white; border-bottom: 1px solid #dfe1e6; }
+  h1 { margin: 0 0 14px; font-size: 24px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  select, button, a { font: inherit; }
+  select, button { min-height: 40px; padding: 6px 12px; border: 1px solid #a6b3c4; border-radius: 6px; background: white; color: inherit; }
+  button { cursor: pointer; }
+  button:hover { background: #edf3ff; }
+  :focus-visible { outline: 3px solid #0052cc; outline-offset: 2px; }
+  #viewport { height: calc(100vh - 165px); overflow: auto; padding: 20px; }
+  img { display: block; max-width: none; background: white; box-shadow: 0 1px 8px #091e4220; }
+  p { margin: 12px 0 0; font-size: 14px; color: #42526e; }
+  a { color: #0747a6; }
+</style>
+<header>
+  <h1>VitaStore · схемы решения</h1>
+  <div class="controls">
+    <label for="diagram">Схема</label>
+    <select id="diagram">
+      <option value="Task1/capabilities.svg">1. Карта возможностей</option>
+      <option value="Task2/onboarding.svg">2. Подключение магазина — BPMN</option>
+      <option value="Task3/as-is.svg">3. Текущая архитектура — AS-IS</option>
+      <option value="Task3/to-be.svg">3. Целевая архитектура — TO-BE</option>
+    </select>
+    <button id="out" aria-label="Уменьшить масштаб">−</button>
+    <output id="scale" aria-live="polite">100%</output>
+    <button id="in" aria-label="Увеличить масштаб">+</button>
+    <button id="fit">По ширине</button>
+    <button id="actual">100%</button>
+    <a id="original" href="Task1/capabilities.svg" target="_blank" rel="noopener">Отдельный файл</a>
+  </div>
+  <p>Увеличьте BPMN, чтобы прочитать подписи. Большую схему можно прокручивать по горизонтали и вертикали.</p>
+</header>
+<main id="viewport"><img id="image" src="Task1/capabilities.svg" alt="Карта бизнес-возможностей VitaStore"></main>
+<script>
+  const image = document.querySelector('#image');
+  const select = document.querySelector('#diagram');
+  const viewport = document.querySelector('#viewport');
+  let scale = 1;
+  function zoom(value) {
+    scale = Math.max(0.2, Math.min(3, value));
+    image.style.width = `${image.naturalWidth * scale}px`;
+    document.querySelector('#scale').value = `${Math.round(scale * 100)}%`;
+  }
+  function fit() { zoom((viewport.clientWidth - 40) / image.naturalWidth); }
+  image.addEventListener('load', fit);
+  select.addEventListener('change', () => {
+    image.src = select.value;
+    image.alt = select.selectedOptions[0].textContent;
+    document.querySelector('#original').href = select.value;
+    viewport.scrollTo(0, 0);
+  });
+  document.querySelector('#in').onclick = () => zoom(scale * 1.25);
+  document.querySelector('#out').onclick = () => zoom(scale / 1.25);
+  document.querySelector('#fit').onclick = fit;
+  document.querySelector('#actual').onclick = () => zoom(1);
+  if (image.complete && image.naturalWidth) fit();
+</script>
+</html>

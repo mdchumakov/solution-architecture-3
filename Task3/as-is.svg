@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8" fill="#42526e"/></marker></defs>
+<rect width="1500" height="1000" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b4d}.title{font-size:27px;font-weight:bold}.sub{font-size:16px}.box{font-size:17px}.label{font-size:14px;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}.group{font-size:19px;font-weight:bold}</style>
+<text x="30" y="40" class="title" text-anchor="start">VitaStore · AS-IS · C4 Container</text>
+<text x="30" y="70" class="sub" text-anchor="start">Система в фокусе: касса и бэк-офис магазина. Внешние зависимости показаны серым.</text>
+<rect x="70" y="300" width="830" height="400" rx="10" fill="#f7f9fc" stroke="#7a869a" stroke-dasharray="7 5"/>
+<text x="86" y="330" class="group" text-anchor="start">Система кассы и бэк-офиса · магазин</text>
+<rect x="120" y="400" width="300" height="150" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="270.0" y="457.0" class="box" text-anchor="middle">POS и бэк-офис</text>
+<text x="270.0" y="480.0" class="box" text-anchor="middle">[Container: Windows / C#]</text>
+<text x="270.0" y="503.0" class="box" text-anchor="middle">Продажи, цены, драйверы</text>
+<rect x="550" y="400" width="300" height="150" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="700.0" y="445.5" class="box" text-anchor="middle">Локальная БД</text>
+<text x="700.0" y="468.5" class="box" text-anchor="middle">[Container: SQL Server /</text>
+<text x="700.0" y="491.5" class="box" text-anchor="middle">PostgreSQL, зависит от точки]</text>
+<text x="700.0" y="514.5" class="box" text-anchor="middle">Справочники и чеки</text>
+<rect x="120" y="150" width="300" height="85" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="270.0" y="186.0" class="box" text-anchor="middle">Кассир</text>
+<text x="270.0" y="209.0" class="box" text-anchor="middle">[Person]</text>
+<rect x="1060" y="400" width="340" height="150" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="1230.0" y="457.0" class="box" text-anchor="middle">SAP ERP · HQ on-premises</text>
+<text x="1230.0" y="480.0" class="box" text-anchor="middle">[External software system]</text>
+<text x="1230.0" y="503.0" class="box" text-anchor="middle">Товары, цены, кадры, финансы</text>
+<rect x="550" y="150" width="300" height="100" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="700.0" y="182.0" class="box" text-anchor="middle">Excel товароведа HQ</text>
+<text x="700.0" y="205.0" class="box" text-anchor="middle">[External application]</text>
+<text x="700.0" y="228.0" class="box" text-anchor="middle">Ручное сопоставление SKU</text>
+<rect x="1060" y="150" width="340" height="100" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="1230.0" y="182.0" class="box" text-anchor="middle">Сервис лояльности</text>
+<text x="1230.0" y="205.0" class="box" text-anchor="middle">[External system]</text>
+<text x="1230.0" y="228.0" class="box" text-anchor="middle">Владелец и протокол неясны</text>
+<rect x="120" y="805" width="300" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="270.0" y="842.0" class="box" text-anchor="middle">Фискальный регистратор</text>
+<text x="270.0" y="865.0" class="box" text-anchor="middle">[External device]</text>
+<text x="270.0" y="888.0" class="box" text-anchor="middle">Локальная печать чека</text>
+<rect x="550" y="805" width="300" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="700.0" y="842.0" class="box" text-anchor="middle">Банковский терминал</text>
+<text x="700.0" y="865.0" class="box" text-anchor="middle">[External device]</text>
+<text x="700.0" y="888.0" class="box" text-anchor="middle">Разные модели и протоколы</text>
+<polyline points="270,235 270,400" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="285" y="280" class="label" text-anchor="start">Работает через UI</text>
+<polyline points="420,475 550,475" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="435" y="440" class="label" text-anchor="start">Чтение / запись</text>
+<text x="435" y="458" class="label" text-anchor="start">SQL</text>
+<polyline points="1060,510 950,510 950,640 700,640 700,550" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="965" y="580" class="label" text-anchor="start">XML по FTP, 02:00</text>
+<text x="965" y="598" class="label" text-anchor="start">Прайс-листы из регламента</text>
+<polyline points="700,400 700,250" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="710" y="310" class="label" text-anchor="start">Инженер: CSV/XLS</text>
+<text x="710" y="328" class="label" text-anchor="start">затем email</text>
+<polyline points="850,200 970,200 970,430 1060,430" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="975" y="300" class="label" text-anchor="start">Согласованный файл</text>
+<text x="975" y="318" class="label" text-anchor="start">ручной импорт</text>
+<polyline points="420,420 470,420 470,110 1230,110 1230,150" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="500" y="102" class="label" text-anchor="start">Онлайн-запрос лояльности; связь подтверждена INC-8402, протокол неизвестен</text>
+<polyline points="270,550 270,805" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="285" y="755" class="label" text-anchor="start">COM / драйвер в POS</text>
+<polyline points="370,550 370,740 700,740 700,805" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="500" y="730" class="label" text-anchor="start">USB / драйвер в POS</text>
+<text x="30" y="965" class="sub" text-anchor="start">Пунктирная связь: зависимость известна, детали требуют обследования. Обратный канал продаж в SAP не подтверждён.</text>
+</svg>
