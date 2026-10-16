@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1040" viewBox="0 0 1480 1040">
+<rect width="1480" height="1040" fill="#f7f9fc"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b4d}.title{font-size:28px;font-weight:bold}.h{font-size:18px;font-weight:bold}.body{font-size:16px}.small{font-size:14px;fill:#42526e}</style>
+<text x="35" y="45" class="title">VitaStore · карта бизнес-возможностей L1 / L2</text>
+<text x="35" y="77" class="body">П — проблемная или дорогая зона   ·   У — уникальное преимущество   ·   Серый — остальные функции</text>
+<rect x="35" y="110" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="51" y="142" class="h">01  Продажи</text>
+<rect x="47" y="165" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="59" y="192" class="body">Чек и возврат</text>
+<text x="59" y="217" class="small">Магазин</text>
+<text x="330" y="217" class="h">П</text>
+<rect x="47" y="250" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="59" y="277" class="body">Приём оплаты</text>
+<text x="59" y="302" class="small">Магазин</text>
+<text x="330" y="302" class="h">П</text>
+<rect x="47" y="335" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="59" y="362" class="body">Печать ценников</text>
+<text x="59" y="387" class="small">Магазин</text>
+<text x="330" y="387" class="h"></text>
+<rect x="47" y="420" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="59" y="447" class="body">Смена и инкассация</text>
+<text x="59" y="472" class="small">Магазин / HQ</text>
+<text x="330" y="472" class="h"></text>
+<rect x="395" y="110" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="411" y="142" class="h">02  Маркетинг</text>
+<rect x="407" y="165" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="419" y="192" class="body">Управление акциями</text>
+<text x="419" y="217" class="small">HQ: Promo Engine</text>
+<text x="690" y="217" class="h"></text>
+<rect x="407" y="250" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="419" y="277" class="body">Лояльность</text>
+<text x="419" y="302" class="small">HQ / магазин</text>
+<text x="690" y="302" class="h">П</text>
+<rect x="407" y="335" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="419" y="362" class="body">Работа с покупателями</text>
+<text x="419" y="387" class="small">HQ / магазин</text>
+<text x="690" y="387" class="h"></text>
+<rect x="755" y="110" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="771" y="142" class="h">03  Ассортимент и закупки</text>
+<rect x="767" y="165" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="779" y="192" class="body">Единый каталог SKU</text>
+<text x="779" y="217" class="small">HQ / магазин</text>
+<text x="1050" y="217" class="h">П</text>
+<rect x="767" y="250" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="779" y="277" class="body">Цены и поставщики</text>
+<text x="779" y="302" class="small">HQ</text>
+<text x="1050" y="302" class="h"></text>
+<rect x="767" y="335" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="779" y="362" class="body">Заказы поставщикам</text>
+<text x="779" y="387" class="small">HQ</text>
+<text x="1050" y="387" class="h"></text>
+<rect x="1115" y="110" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="1131" y="142" class="h">04  Логистика</text>
+<rect x="1127" y="165" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="1139" y="192" class="body">Приёмка товара</text>
+<text x="1139" y="217" class="small">Магазин</text>
+<text x="1410" y="217" class="h"></text>
+<rect x="1127" y="250" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="1139" y="277" class="body">Остатки и инвентаризация</text>
+<text x="1139" y="302" class="small">Магазин / HQ</text>
+<text x="1410" y="302" class="h">П</text>
+<rect x="1127" y="335" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="1139" y="362" class="body">Пополнение магазинов</text>
+<text x="1139" y="387" class="small">HQ</text>
+<text x="1410" y="387" class="h"></text>
+<rect x="1127" y="420" width="311" height="72" rx="7" fill="#dcfff1" stroke="#216e4e"/>
+<text x="1139" y="447" class="body">Click &amp; Collect</text>
+<text x="1139" y="472" class="small">Smart Fulfillment</text>
+<text x="1410" y="472" class="h">У</text>
+<rect x="35" y="560" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="51" y="592" class="h">05  Люди и финансы</text>
+<rect x="47" y="615" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="59" y="642" class="body">Кадры и премии</text>
+<text x="59" y="667" class="small">HQ / магазин</text>
+<text x="330" y="667" class="h">П</text>
+<rect x="47" y="700" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="59" y="727" class="body">Бухгалтерский учёт</text>
+<text x="59" y="752" class="small">HQ: SAP</text>
+<text x="330" y="752" class="h"></text>
+<rect x="47" y="785" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="59" y="812" class="body">Расчёты с поставщиками</text>
+<text x="59" y="837" class="small">HQ: SAP</text>
+<text x="330" y="837" class="h"></text>
+<rect x="395" y="560" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="411" y="592" class="h">06  Развитие сети</text>
+<rect x="407" y="615" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="419" y="642" class="body">Обследование точки</text>
+<text x="419" y="667" class="small">M&amp;A / Store Ops</text>
+<text x="690" y="667" class="h"></text>
+<rect x="407" y="700" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="419" y="727" class="body">Перенос и сверка SKU</text>
+<text x="419" y="752" class="small">Data Integration</text>
+<text x="690" y="752" class="h">П</text>
+<rect x="407" y="785" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="419" y="812" class="body">Настройка и открытие</text>
+<text x="419" y="837" class="small">Store Ops / магазин</text>
+<text x="690" y="837" class="h">П</text>
+<rect x="755" y="560" width="335" height="420" rx="12" fill="white" stroke="#dfe1e6"/>
+<text x="771" y="592" class="h">07  ИТ и контроль</text>
+<rect x="767" y="615" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="779" y="642" class="body">Поддержка касс и серверов</text>
+<text x="779" y="667" class="small">Store Ops</text>
+<text x="1050" y="667" class="h">П</text>
+<rect x="767" y="700" width="311" height="72" rx="7" fill="#fff0ee" stroke="#c9372c"/>
+<text x="779" y="727" class="body">Управление устройствами</text>
+<text x="779" y="752" class="small">Store Ops</text>
+<text x="1050" y="752" class="h">П</text>
+<rect x="767" y="785" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="779" y="812" class="body">Доступы и аудит</text>
+<text x="779" y="837" class="small">ИТ HQ</text>
+<text x="1050" y="837" class="h"></text>
+<rect x="767" y="870" width="311" height="72" rx="7" fill="#f1f3f5" stroke="#b3bac5"/>
+<text x="779" y="897" class="body">Резервное копирование</text>
+<text x="779" y="922" class="small">ИТ HQ</text>
+<text x="1050" y="922" class="h"></text>
+<text x="1115" y="600" class="h">Где искать решение</text>
+<text x="1115" y="635" class="body">Task1: Buy vs Build</text>
+<text x="1115" y="665" class="body">Task2: подключение точки</text>
+<text x="1115" y="695" class="body">Task3: архитектура</text>
+<text x="1115" y="725" class="body">Task4: стоимость владения</text>
+<text x="35" y="1020" class="small">Источник: docs/context.md и docs/task1.md. Дополнения базовых функций розницы пояснены в README.</text>
+</svg>

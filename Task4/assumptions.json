@@ -1,0 +1,26 @@
+{
+  "stores": 100,
+  "years": 3,
+  "as_is": {
+    "replacement_per_store": 60000,
+    "license_month_per_store": 6000,
+    "support_fte": 10,
+    "fte_year": 2400000,
+    "network_month_per_store": 3000,
+    "maintenance_year_per_store": 60000,
+    "visits_year_per_store": 60000
+  },
+  "to_be": {
+    "equipment_per_store": 60000,
+    "integration_once": 5000000,
+    "training_once": 1000000,
+    "parallel_once": 2000000,
+    "saas_month_per_store": 6000,
+    "support_fte": 3,
+    "fte_year": 2400000,
+    "network_month_per_store": 4000,
+    "cloud_year": 2400000,
+    "hal_year_per_store": 6000,
+    "maintenance_year_per_store": 10000
+  }
+}

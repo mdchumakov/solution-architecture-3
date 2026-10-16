@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1740" height="1350" viewBox="0 0 1740 1350">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8" fill="#42526e"/></marker></defs>
+<rect width="1740" height="1350" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b4d}.title{font-size:27px;font-weight:bold}.sub{font-size:16px}.box{font-size:17px}.label{font-size:14px;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}.group{font-size:19px;font-weight:bold}</style>
+<text x="30" y="40" class="title" text-anchor="start">VitaStore · TO-BE · High-Level Design</text>
+<text x="30" y="70" class="sub" text-anchor="start">Отдельного сервера в магазине нет. Офлайн-данные и доступ к USB/COM остаются на планшете.</text>
+<rect x="30" y="110" width="490" height="1020" rx="10" fill="#f7f9fc" stroke="#7a869a" stroke-dasharray="7 5"/>
+<text x="46" y="140" class="group" text-anchor="start">Магазин / Edge</text>
+<rect x="575" y="110" width="690" height="1020" rx="10" fill="#f7f9fc" stroke="#7a869a" stroke-dasharray="7 5"/>
+<text x="591" y="140" class="group" text-anchor="start">Облако · SaaS / PaaS</text>
+<rect x="1320" y="110" width="390" height="1020" rx="10" fill="#f7f9fc" stroke="#7a869a" stroke-dasharray="7 5"/>
+<text x="1336" y="140" class="group" text-anchor="start">HQ и внешние участники</text>
+<rect x="85" y="175" width="380" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="275.0" y="212.0" class="box" text-anchor="middle">Лёгкое приложение POS</text>
+<text x="275.0" y="235.0" class="box" text-anchor="middle">Планшет: UI и офлайн-продажа</text>
+<text x="275.0" y="258.0" class="box" text-anchor="middle">Кассир работает в приложении</text>
+<rect x="85" y="375" width="380" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="275.0" y="412.0" class="box" text-anchor="middle">Локальное хранилище</text>
+<text x="275.0" y="435.0" class="box" text-anchor="middle">Каталог, правила, журнал продаж</text>
+<text x="275.0" y="458.0" class="box" text-anchor="middle">Защищённый диск планшета</text>
+<rect x="85" y="575" width="380" height="110" rx="7" fill="#fff0b3" stroke="#526581" stroke-width="1.5"/>
+<text x="275.0" y="612.0" class="box" text-anchor="middle">HAL / локальный агент</text>
+<text x="275.0" y="635.0" class="box" text-anchor="middle">Готовый SDK и адаптеры</text>
+<text x="275.0" y="658.0" class="box" text-anchor="middle">Единый интерфейс устройств</text>
+<rect x="60" y="835" width="205" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="162.5" y="883.5" class="box" text-anchor="middle">Регистратор</text>
+<text x="162.5" y="906.5" class="box" text-anchor="middle">Фискальный чек</text>
+<rect x="295" y="835" width="205" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="397.5" y="883.5" class="box" text-anchor="middle">Терминал</text>
+<text x="397.5" y="906.5" class="box" text-anchor="middle">Банковская оплата</text>
+<rect x="635" y="175" width="570" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="920.0" y="212.0" class="box" text-anchor="middle">Cloud POS + лояльность [SaaS]</text>
+<text x="920.0" y="235.0" class="box" text-anchor="middle">Онлайн-продажи, каталог и журнал</text>
+<text x="920.0" y="258.0" class="box" text-anchor="middle">Применяет правила Promo Engine</text>
+<rect x="635" y="385" width="270" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="770.0" y="422.0" class="box" text-anchor="middle">Интеграционный</text>
+<text x="770.0" y="445.0" class="box" text-anchor="middle">сервис [PaaS]</text>
+<text x="770.0" y="468.0" class="box" text-anchor="middle">Очередь и дедупликация</text>
+<rect x="950" y="385" width="255" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="1077.5" y="422.0" class="box" text-anchor="middle">Promo Engine</text>
+<text x="1077.5" y="445.0" class="box" text-anchor="middle">Собственный код</text>
+<text x="1077.5" y="468.0" class="box" text-anchor="middle">PaaS</text>
+<rect x="635" y="600" width="270" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="770.0" y="637.0" class="box" text-anchor="middle">Подключение магазина</text>
+<text x="770.0" y="660.0" class="box" text-anchor="middle">PaaS: процесс и проверка</text>
+<text x="770.0" y="683.0" class="box" text-anchor="middle">БД + файлы + ИИ API</text>
+<rect x="950" y="600" width="255" height="110" rx="7" fill="#dcfff1" stroke="#526581" stroke-width="1.5"/>
+<text x="1077.5" y="637.0" class="box" text-anchor="middle">Smart Fulfillment</text>
+<text x="1077.5" y="660.0" class="box" text-anchor="middle">Собственный код</text>
+<text x="1077.5" y="683.0" class="box" text-anchor="middle">PaaS + managed DB</text>
+<rect x="635" y="835" width="270" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="770.0" y="872.0" class="box" text-anchor="middle">Payment Gateway</text>
+<text x="770.0" y="895.0" class="box" text-anchor="middle">Шлюз провайдера</text>
+<text x="770.0" y="918.0" class="box" text-anchor="middle">Онлайн-статусы</text>
+<rect x="950" y="835" width="255" height="110" rx="7" fill="#deebff" stroke="#526581" stroke-width="1.5"/>
+<text x="1077.5" y="872.0" class="box" text-anchor="middle">MDM / наблюдение</text>
+<text x="1077.5" y="895.0" class="box" text-anchor="middle">Настройки, обновления</text>
+<text x="1077.5" y="918.0" class="box" text-anchor="middle">Резервы и уведомления</text>
+<rect x="1360" y="385" width="310" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="1515.0" y="422.0" class="box" text-anchor="middle">SAP ERP [on-premises]</text>
+<text x="1515.0" y="445.0" class="box" text-anchor="middle">Эталон SKU и цен</text>
+<text x="1515.0" y="468.0" class="box" text-anchor="middle">Учёт товаров и финансов</text>
+<rect x="1360" y="600" width="310" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="1515.0" y="637.0" class="box" text-anchor="middle">Товаровед HQ</text>
+<text x="1515.0" y="660.0" class="box" text-anchor="middle">Проверяет исключения</text>
+<text x="1515.0" y="683.0" class="box" text-anchor="middle">в кабинете подключения</text>
+<rect x="1360" y="835" width="310" height="110" rx="7" fill="#eaecef" stroke="#526581" stroke-width="1.5"/>
+<text x="1515.0" y="872.0" class="box" text-anchor="middle">Эквайер</text>
+<text x="1515.0" y="895.0" class="box" text-anchor="middle">Платёжные статусы</text>
+<text x="1515.0" y="918.0" class="box" text-anchor="middle">Онлайн-авторизация</text>
+<polyline points="465,215 635,215" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="480" y="180" class="label" text-anchor="start">Продажи ↑</text>
+<text x="480" y="198" class="label" text-anchor="start">HTTPS; ACK</text>
+<polyline points="635,260 465,260" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="490" y="282" class="label" text-anchor="start">Каталог ↓</text>
+<polyline points="275,285 275,375" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="290" y="335" class="label" text-anchor="start">Чтение / запись</text>
+<polyline points="85,230 52,230 52,630 85,630" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="0" y="0" class="label" text-anchor="start"></text>
+<text x="65" y="530" class="label" text-anchor="start">Локальный IPC: печать / оплата</text>
+<polyline points="200,685 200,835" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="80" y="775" class="label" text-anchor="start">USB / COM</text>
+<polyline points="370,685 370,835" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="380" y="775" class="label" text-anchor="start">Адаптер / USB</text>
+<polyline points="770,285 770,385" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="785" y="335" class="label" text-anchor="start">События продаж</text>
+<polyline points="905,450 925,450 925,525 1300,525 1300,450 1360,450" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1010" y="515" class="label" text-anchor="start">SAP API через защищённый канал</text>
+<polyline points="1077,385 1077,285" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1090" y="335" class="label" text-anchor="start">Правила акций</text>
+<polyline points="770,600 770,495" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="640" y="555" class="label" text-anchor="start">SKU и подтверждение ERP</text>
+<polyline points="1360,655 1300,655 1300,750 925,750 925,655 905,655" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1000" y="740" class="label" text-anchor="start">Проверка SKU через HTTPS</text>
+<polyline points="1077,600 1077,560 840,560 840,495" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1100" y="580" class="label" text-anchor="start">Заказы / остатки</text>
+<polyline points="500,890 635,890" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="535" y="875" class="label" text-anchor="start">Онлайн</text>
+<polyline points="905,910 925,910 925,1010 1300,1010 1300,890 1360,890" fill="none" stroke="#42526e" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1000" y="1035" class="label" text-anchor="start">HTTPS / статусы провайдера</text>
+<text x="60" y="1030" class="sub" text-anchor="start">HAL печатает без облака.</text>
+<text x="60" y="1060" class="sub" text-anchor="start">Платёж требует ответа эквайера.</text>
+<text x="635" y="1090" class="sub" text-anchor="start">MDM управляет планшетами; мониторинг следит за очередями.</text>
+<text x="30" y="1190" class="sub" text-anchor="start">Поток подключения: файл магазина → платформа → ИИ и товаровед → SAP → каталог POS. Подробности: Task2.</text>
+<text x="30" y="1225" class="sub" text-anchor="start">У каждой продажи свой ID. Повторная доставка не создаёт новый чек или проводку. Правила конфликтов: README.</text>
+<text x="30" y="1260" class="sub" text-anchor="start">Жёлтый — локальный HAL; зелёный — собственное преимущество; серый — HQ и внешние устройства / участники.</text>
+<text x="30" y="1295" class="sub" text-anchor="start">Стрелки показывают основные обращения и сообщения. Ответы, служебные API и резервные соединения опущены.</text>
+</svg>
